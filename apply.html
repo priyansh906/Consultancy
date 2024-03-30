@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apply For Position</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="m-5">
+      <div
+        class="mx-auto p-2 bg-gray-100 border border-black rounded-lg shadow-lg max-w-screen-lg"
+      >
+        <div>
+          <i
+            class="icon fa-solid fa-x float-right pb-5 text-orange-400 cursor-pointer"
+          ></i>
+        </div>
+        <h2 class="font-bold text-center p-2">Apply for Position</h2>
+
+        <form>
+          <div class="mb-4 mx-4 my-2">
+            <input
+              type="text"
+              id="full_name"
+              name="full_name"
+              class="mt-1 px-4 py-2 block w-full rounded-md focus:outline-none focus:border-orange-400"
+              placeholder="Full Name *"
+            />
+          </div>
+          <div class="mb-4 mx-4 my-2">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="mt-1 px-4 py-2 block w-full rounded-md focus:outline-none focus:border-orange-400"
+              placeholder="Email Address *"
+            />
+          </div>
+          <div class="mb-4 mx-4 my-2">
+            <input
+              type="tel"
+              id="mobile_number"
+              name="mobile_number"
+              class="mt-1 px-4 py-2 block w-full rounded-md focus:outline-none focus:border-orange-400"
+              placeholder="Mobile Number *"
+            />
+          </div>
+          <div class="mb-4 mx-4 my-2">
+            <input
+              type="country"
+              id="country"
+              name="country"
+              class="mt-1 px-4 py-2 block w-full rounded-md focus:outline-none focus:border-orange-400"
+              placeholder="Country of Residence*"
+            />
+          </div>
+          <div class="mb-4 mx-4 my-2">
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="mt-1 px-4 py-2 block w-full rounded-md focus:outline-none focus:border-orange-400"
+              placeholder="Message /Cover Letter to Employer"
+            ></textarea>
+          </div>
+          <div
+            class="mb-4 mx-4 my-2 flex items-center bg-white rounded-md px-4 py-2"
+          >
+            <div class="flex-1 pr-2 cursor-pointer">
+              <span class="text-sm text-gray-400"
+                >Resume/CV *<br />
+                Upload your CV or any other relevant file.<br />
+                Max file size 10MB</span
+              >
+            </div>
+            <div class="cursor-pointer">
+              <div class="bg-gray-300 p-2 rounded-lg">
+                <i class="fa-solid fa-paperclip text-2xl text-white"></i>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center mx-4 my-2">
+            <input
+              type="checkbox"
+              id="agree_terms"
+              name="agree_terms"
+              class="mr-2"
+            />
+            <label for="agree_terms" class="text-sm text-gray-700"
+              >I am happy to be contacted by Gokyo Consulting on the latest
+              positions and updates via email or SMS in accordance with Gokyo's
+              <span class="text-orange-400 underline"
+                >privacy policy.</span
+              ></label
+            >
+          </div>
+          <div class="mt-4 mx-4 mb-2">
+            <button
+              type="submit"
+              class="px-4 py-2 bg-orange-400 text-white rounded-md hover:bg-orange-600 focus:outline-none focus:bg-blue-600"
+            >
+              Send Application
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
